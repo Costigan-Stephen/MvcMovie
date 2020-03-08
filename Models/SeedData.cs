@@ -29,7 +29,7 @@ namespace MvcMovie.Models
                         Genre = "Adventure",
                         Rating = "PG-13",
                         Price = 7.99M,
-                        Image = "assets/covers/miracles.jpg"
+                        Image = "miracles.jpg"
                     },
 
                     new Movie
@@ -39,7 +39,7 @@ namespace MvcMovie.Models
                         Genre = "Drama",
                         Rating = "NR",
                         Price = 8.99M,
-                        Image = "assets/covers/"
+                        Image = "smith.jpg"
                     },
 
                     new Movie
@@ -49,7 +49,7 @@ namespace MvcMovie.Models
                         Genre = "Drama",
                         Rating = "PG-13",
                         Price = 9.99M,
-                        Image = "assets/covers/charly.jpg"
+                        Image = "charly.jpg"
                     },
 
                     new Movie
@@ -59,7 +59,7 @@ namespace MvcMovie.Models
                         Genre = "Adventure",
                         Rating = "PG-13",
                         Price = 9.99M,
-                        Image = "assets/covers/heaven.jpg"
+                        Image = "heaven.jpg"
                     },
 
                     new Movie
@@ -69,7 +69,7 @@ namespace MvcMovie.Models
                         Genre = "Action",
                         Rating = "PG-13",
                         Price = 7.99M,
-                        Image = "assets/covers/soldiers.jpg"
+                        Image = "soldiers.jpg"
                     }
                 );
                 context.SaveChanges();
